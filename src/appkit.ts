@@ -18,7 +18,7 @@ if (!projectId) {
 const metadata = {
   name: "Web3 Login",
   description: "Web3 Login with MetaMask",
-  url: typeof window !== "undefined" ? window.location.origin : "http://localhost:5001",
+  url: typeof window !== "undefined" ? window.location.origin : "http://localhost:50011",
   icons: ["https://avatars.githubusercontent.com/u/179229932"], // logo URL(s)
 };
 
@@ -49,7 +49,6 @@ createAppKit({
   themeVariables,
   features: {
     analytics: false,
-    reownBranding: false, // hide Reown branding in the connect modal (true by default)
   },
 });
 
