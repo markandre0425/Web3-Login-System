@@ -28,7 +28,7 @@ Wallet connect using [Reown AppKit](https://docs.reown.com/appkit/react/core/ins
    npm run dev
    ```
 
-   Open [http://localhost:5173](http://localhost:5173).
+   Open [http://localhost:5001](http://localhost:5001).
 
 ## What’s included
 
