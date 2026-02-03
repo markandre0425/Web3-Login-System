@@ -10,7 +10,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  background: #0f0f12;
+
+  background:
+    radial-gradient(1100px 700px at 20% 60%, rgba(255, 255, 255, 0.06), transparent 60%),
+    radial-gradient(900px 600px at 70% 35%, rgba(255, 255, 255, 0.05), transparent 55%),
+    linear-gradient(90deg, #5b5aa8 0%, #7b4f9a 45%, #c2185b 100%);
 
   color: #e4e4e7;
   min-height: 100vh;
@@ -25,7 +29,7 @@ body {
   padding: 1.5rem;
 }
 
-/* AppKit connect button */
+
 appkit-button {
   display: block;
   width: fit-content;

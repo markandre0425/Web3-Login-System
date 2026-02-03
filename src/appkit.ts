@@ -18,7 +18,7 @@ if (!projectId) {
 const metadata = {
   name: "Web3 Login",
   description: "Web3 Login with MetaMask",
-  url: typeof window !== "undefined" ? window.location.origin : "http://localhost:50011",
+  url: typeof window !== "undefined" ? window.location.origin : "http://localhost:5001",
   icons: ["https://avatars.githubusercontent.com/u/179229932"], // logo URL(s)
 };
 

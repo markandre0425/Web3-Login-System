@@ -1,0 +1,25 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Approximation of the BLINC circular "b" mark -->
+  <defs>
+    <style>
+      .s { stroke: #ffffff; stroke-width: 14; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+
+  <!-- Outer circular stroke with a small gap at top-left -->
+  <path class="s" d="M64 18
+    C39.1 18 19 38.1 19 63
+    C19 87.9 39.1 108 64 108
+    C88.9 108 109 87.9 109 63
+    C109 51.6 104.8 41.2 97.7 33.2" />
+
+  <!-- Inner 'b' stem -->
+  <path class="s" d="M51 34 V78" />
+
+  <!-- Inner loop of the 'b' -->
+  <path class="s" d="M51 78
+    C51 92 62 102 76 102
+    C90 102 101 91 101 77
+    C101 63 90 52 76 52
+    H64" />
+</svg>
